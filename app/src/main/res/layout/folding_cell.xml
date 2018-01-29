@@ -12,13 +12,13 @@
         android:id="@+id/folding_cell"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clipChildren="false"
-        android:clipToPadding="false"
+        android:clipChildren="true"
+        android:clipToPadding="true"
         folding-cell:animationDuration="1000"
         folding-cell:backSideColor="#b32323"
-        folding-cell:additionalFlipsCount="0"
-        folding-cell:cameraHeight="60"
-        android:padding="10dp">
+        folding-cell:additionalFlipsCount="2"
+        folding-cell:cameraHeight="30"
+        android:layout_margin="10dp">
         ​
         <FrameLayout
             android:id="@+id/cell_content_view"
